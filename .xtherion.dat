@@ -1,0 +1,17 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 231.03m (surface 0.00m, duplicated 0.00m)\nvertical range: 97.06m (from 0@ at 302.00m to 6.20.6@ at 204.94m)\nnorth-south range: 40.21m (from 0@ at 5676806.00m to 6.20.8@ at 5676765.79m)\neast-west range: 13.93m (from 17@ at 523481.43m to 26@ at 523467.50m)\nnumber of shots: 316\nnumber of stations: 317"
+xth_cp_data_tree_insert 25 1 1 main main "Templeton" "Templeton" "length: 231.03m (surface 0.00m, duplicated 0.00m)\nvertical range: 97.06m (from 0@ at 302.00m to 6.20.6@ at 204.94m)\nnorth-south range: 40.21m (from 0@ at 5676806.00m to 6.20.8@ at 5676765.79m)\neast-west range: 13.93m (from 17@ at 523481.43m to 26@ at 523467.50m)\nnumber of shots: 316\nnumber of stations: 0"
+xth_cp_data_tree_insert 27 25 2 templeton_7 templeton_7.main "Templeton" "Templeton" "length: 231.03m (surface 0.00m, duplicated 0.00m)\nvertical range: 97.06m (from 0@ at 302.00m to 6.20.6@ at 204.94m)\nnorth-south range: 40.21m (from 0@ at 5676806.00m to 6.20.8@ at 5676765.79m)\neast-west range: 13.93m (from 17@ at 523481.43m to 26@ at 523467.50m)\nnumber of shots: 316\nnumber of stations: 0"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_insert projection 0 p2 {} 0 extended {} {} {}
+xth_cp_map_tree_insert map 0 179X1 p1 1 mainMap mainMap@main "" ""
+xth_cp_map_tree_insert map 1 177X1 179X1 2 m1 m1@main "" ""
+xth_cp_map_tree_insert map 1 178X1 179X1 2 m2 m2@main "" ""
+xth_cp_map_tree_insert map 1 221X1 p2 1 map_ext map_ext@main "" ""
+xth_cp_map_tree_create
+xth_cp_comp_stat 231 7
+set xth(th_exit_state) 1
+set xth(th_exit_number) 1744659453
+

@@ -1,0 +1,33 @@
+encoding  utf-8
+survey main -title "Templeton" -namespace off
+
+input "surveys/2025/templeton.th"
+
+input "templeton.th2"
+
+map m1
+  scrap1
+  break
+  south1
+  south2
+  south3
+  break
+  south4
+endmap
+
+map m2
+  north1
+endmap
+
+map mainMap
+  m1 [0 0 m] above
+  m2 [-15 0 m] below
+endmap
+
+input "templeton_ext.th2"
+
+map map_ext
+ scrap_ext
+endmap
+
+endsurvey
